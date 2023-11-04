@@ -2,3 +2,5 @@
 
 - Git initialization
 - Git Add and Commit Changes
+
+- readme.so/pt/editor
