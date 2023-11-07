@@ -8,20 +8,21 @@ body {
   background: black;
 }
 
+#app{
+  /* border: 1px solid white; */
+}
+
 header {
   display: flex;
   width: 1120px;
-  height: 48px;
+  height: 48px; */
   justify-content: center;
   align-items: center;
   gap: 293.72px;
   margin: 0 auto;
   margin-top: 115px;
-}
 
-header img {
-  position: relative;
-  right: -20px;
+  /* border: 1px solid white; */
 }
 
 #input {
@@ -31,7 +32,7 @@ header img {
   gap: 10px;
 
   position: relative;
-  left: -22px;
+  left: -28px;
 }
 
 #input-search {
@@ -46,6 +47,34 @@ header img {
   font-size: 16px;
   font-weight: 400;
   line-height: 100%;
+}
+
+button{
+  font-family: "Roboto", sans-serif;
+  background: #065E7C;
+  padding: ;
+  color: white;
+  border: none;
+
+  width: 170px;
+  height: 48px;
+
+  cursor: pointer;
+}
+
+#star{
+  position: relative;
+  left: -160px;
+}
+
+button:hover{
+  background: #FFF;
+  color:#065E7C;
+}
+
+#star2:hover{
+  position: relative;
+  left: -160px;
 }
 
 .sr-only {
