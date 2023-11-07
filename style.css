@@ -67,14 +67,15 @@ button{
   left: -160px;
 }
 
+#star2{
+  position: relative;
+  left: -194px;
+  /* display: none; Atenção! */
+}
+
 button:hover{
   background: #FFF;
   color:#065E7C;
-}
-
-#star2:hover{
-  position: relative;
-  left: -160px;
 }
 
 .sr-only {
